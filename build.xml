@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="MeridixMaint" default="jar" basedir="..">
 	
-	<property name="wowza.lib.dir" value="F:/Projects/Wowza Media Systems/Wowza Streaming Engine 4.3.0/lib"/>
+	<property name="wowza.lib.dir" value="F:/Projects/Wowza Media Systems/Wowza Streaming Engine 4.6.0/lib"/>
 	<property name="jar.filename" value="MeridixMaint.jar"/>
 	<property name="core.build.dir" value="bin"/>
 

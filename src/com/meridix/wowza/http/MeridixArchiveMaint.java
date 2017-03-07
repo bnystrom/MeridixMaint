@@ -1,8 +1,8 @@
-package com.meridix.wms.http;
+package com.meridix.wowza.http;
 
 import java.io.*;
 import java.net.*;
-import java.nio.channels.FileChannel;
+//import java.nio.channels.FileChannel;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -17,13 +17,13 @@ import com.wowza.wms.logging.*;
 import com.wowza.wms.stream.MediaStreamMap;
 import com.wowza.wms.vhost.*;
 
-public class MeridixMaint extends HTTProvider2Base {
+public class MeridixArchiveMaint extends HTTProvider2Base {
 
  
 	private String meridixStoragePath = "/mnt/s3/";
 	private String tempStoragePath = "/home/wowza/content/";
 	private String completedStoragePath = tempStoragePath + "completed/";
-	private String formatExt = ".mp4";
+	//private String formatExt = ".mp4";
 	private String meridixManagerAPIUrl = "https://api.meridix.com/liveid/manager/manager.php";
 	private String nodeURL = "http://localhost:8809/";
 	private IApplicationInstance appInstance;
